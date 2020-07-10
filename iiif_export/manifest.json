@@ -1,0 +1,126 @@
+{
+    "label": "Antiqv\u00e6 vrbis Rom\u00e6 imago accvratiss ex vetvstis monvmentis ex vestigiis videlicet \u00e6dificio",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "@type": "sc:Manifest",
+    "@id": "https://readux.ecdsdev.org/iiif/v2/readux:thhgb/manifest",
+    "related": [
+        "https://readux.ecdsdev.org/volume/readux:thhgb/page/all"
+    ],
+    "viewingDirection": "left-to-right",
+    "thumbnail": {
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thhgb_00000001.jp2",
+            "profile": "http://iiif.io/api/image/2/level1.json"
+        },
+        "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thhgb_00000001.jp2/full/600,/0/default.jpg"
+    },
+    "within": [
+        "https://readux.ecdsdev.org/collection/views-of-rome"
+    ],
+    "sequences": [
+        {
+            "canvases": [
+                {
+                    "label": "1",
+                    "otherContent": [
+                        {
+                            "@id": "https://readux.ecdsdev.org/iiif/v2/readux:thhgb/list/readux:thhgb_00000001.jp2",
+                            "label": "OCR Text",
+                            "@type": "sc:AnnotationList"
+                        },
+                        {
+                            "@id": "https://readux.ecdsdev.org/annotations/jcmundy39/readux:thhgb/list/readux:thhgb_00000001.jp2",
+                            "label": "Annotations by jcmundy39",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
+                    "width": 8537,
+                    "@type": "sc:Canvas",
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "https://readux.ecdsdev.org/iiif/readux:thhgb/canvas/readux:thhgb_00000001.jp2",
+                    "images": [
+                        {
+                            "resource": {
+                                "format": "image/jpeg",
+                                "width": 8537,
+                                "@type": "dctypes:Image",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thhgb_00000001.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level2.json"
+                                },
+                                "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thhgb_00000001.jp2/full/full/0/default.jpg",
+                                "height": 11856
+                            },
+                            "@type": "oa:Annotation",
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "motivation": "sc:painting",
+                            "@id": "https://readux.ecdsdev.org/iiif/readux:thhgb/annotation/readux:thhgb_00000001.jp2",
+                            "on": "https://readux.ecdsdev.org/iiif/readux:thhgb/canvas/readux:thhgb_00000001.jp2"
+                        }
+                    ],
+                    "thumbnail": {
+                        "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thhgb_00000001.jp2/full/200,/0/default.jpg",
+                        "width": 200,
+                        "height": 250
+                    },
+                    "height": 11856
+                }
+            ],
+            "@id": "https://readux.ecdsdev.org/iiif/v2/readux:thhgb/sequence/normal",
+            "@type": "sc:Sequence",
+            "label": "Current Page Order",
+            "startCanvas": "https://readux.ecdsdev.org/iiif/readux:thhgb/canvas/readux:thhgb_00000001.jp2"
+        }
+    ],
+    "description": "The online edition of this book in the public domain, i.e., not protected by copyright, has been produced by Emory University Libraries. Manuscript, Archives, and Rare Book Library copy has sheets joined to create a single map. Bird's-eye view. Engraved by Franz Hogenberg. Title at top of view, sheet 1; index at bottom of view, sheet 2. Latin texts on versos with foliate intial. Sheet 1: Lectori; Roma trivmphans, Andreae Fvlvii antiquari; sheet 2: Populus Ro. gentivm princeps. Printed on verso of sheet 1: \"54\"; printed on verso of sheet 2: \"55\". From volume 4 of Georg Braun's Civitates orbis terrarvm. Related Names: Georg Braun 1540 or 1541-1622.; Frans Hogenberg approximately 1539-1590, engraver.; Gottfried von Kempen active 1576-1598, publisher.; Georg Braun 1540 or 1541-1622.",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "logo": "https://readux.ecdsdev.org/media/logos/lits-logo-web.png",
+    "viewingHint": "paged",
+    "metadata": [
+        {
+            "label": "Author",
+            "value": "Ligorio, Pirro, approximately 1513-1583."
+        },
+        {
+            "label": "Publisher",
+            "value": "G. von Kempen"
+        },
+        {
+            "label": "Place of Publication",
+            "value": "Coloniae Agrippinae"
+        },
+        {
+            "label": "Publication Date",
+            "value": "1588"
+        },
+        {
+            "label": "Notes",
+            "value": [
+                {}
+            ]
+        },
+        {
+            "label": "Record Created",
+            "value": "2019-06-04T15:39:28.180Z"
+        },
+        {
+            "label": "Edition Type",
+            "value": "Readux IIIF Exported Edition"
+        },
+        {
+            "label": "About Readux",
+            "value": "https://readux.ecdsdev.org/about/"
+        },
+        {
+            "label": "Annotators",
+            "value": "Joanna's Github"
+        },
+        {
+            "label": "Export Date",
+            "value": "2020-07-10T19:39:05.985"
+        }
+    ],
+    "attribution": "Emory University Libraries"
+}
